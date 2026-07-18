@@ -8,3 +8,4 @@ class UserCreate(BaseModel):
 class Userlogin(BaseModel):
     email: EmailStr
     password: str
+
